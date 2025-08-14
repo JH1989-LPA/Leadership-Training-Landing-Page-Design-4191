@@ -1,0 +1,55 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4BB79E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a9d85;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #4BB79E;
+  outline-offset: 2px;
+}
+
+/* Button focus styles */
+button:focus {
+  outline: 2px solid #4BB79E;
+  outline-offset: 2px;
+}
+
+/* Input focus styles */
+input:focus, textarea:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #4BB79E;
+  border-color: #4BB79E;
+}
